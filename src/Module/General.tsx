@@ -36,7 +36,8 @@ import zoha from './Assets/teami/zoha.png';
 const TOP_SECTION = {
   TITLE: 'Hack Street',
   Typed_effect: ['48 hours of creativity', 'Code In The Abyssal'],
-  SHORT_DESCRIPTION: 'Join us by 5th November 2022 with over 300 students from across the nation for 48 hours of creation, innovation, & fun.',
+  SHORT_DESCRIPTION:
+    'Join us by 5th November 2022 with over 300 students from across the nation for 48 hours of creation, innovation, & fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
@@ -46,9 +47,9 @@ const TOP_SECTION = {
 const SOCIALS = {
   instagram: 'https://www.instagram.com/limbohacks/',
   discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
+  linkedin: 'https://www.linkedin.com/company/hackstreet/',
   twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
+  devpost: 'https://hackstreet-12968.devpost.com/',
   email: 'mailto:hello@limbohacks.tech',
   mail: 'hello@limbohacks.tech'
 };
@@ -56,7 +57,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is Limbo hacks?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
@@ -338,7 +339,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'Hackstreet is open to all undergraduate, high school students and middle school students from all schools.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -369,7 +370,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will recieveing Hackstreet swag!.'
       }
     ]
   ]
