@@ -68,38 +68,21 @@ const Footer = () => {
               <img src={Mail} alt="" />
             </a>
           </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-              <img src={Twitter} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-              <img src={DevPost} alt="" />
-            </a>
-          </div>
         </div>
         <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Fill the form" />
           </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
-            <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
-            </a>
-          )}
         </div>
         <div className="footer_info">
           <p>
-            Contact us{' '}
+            Contact us{' '}@{' '}
             <a href={SOCIALS.email}>
               <em>{SOCIALS.mail}</em>
             </a>{' '}
           </p>
         </div>
-        {template && viewTemplate && (
-          <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
-        )}
+        
       </div>
     </div>
   );
