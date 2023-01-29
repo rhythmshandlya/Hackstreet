@@ -1,3 +1,4 @@
+import {useEffect} from 'react';
 import {SOCIALS, TOP_SECTION} from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
@@ -24,6 +25,16 @@ const About = () => {
 };
 
 const Myinfo = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  });
   return (
     <div className="Myinfo">
       <About />
@@ -38,16 +49,12 @@ const Myinfo = () => {
           />
         </a>
       </div>
-      <div className="buttom-group">
-        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-          {' '}
-          <Btn
-            class="register"
-            type="Register "
-            overlay="Hackers registration"
-          />
-        </a>
-      </div>
+      <div
+        class="apply-button"
+        data-hackathon-slug="YOUR-HACKATHON-SLUG"
+        data-button-theme="light"
+        style="height: 44px; width: 312px"
+      ></div>
     </div>
   );
 };
