@@ -11,7 +11,6 @@ import polygon from './Assets/sponsorsLogos/polygon.png';
 import solana from './Assets/sponsorsLogos/solana.png';
 import filecoin from './Assets/sponsorsLogos/filecoin.png';
 import Replit from './Assets/sponsorsLogos/replit.png';
-import ppa from './Assets/sponsorsLogos/ppa.jpg';
 import devfolio from './Assets/sponsorsLogos/devfolio.png';
 import beeceptor from './Assets/sponsorsLogos/beeceptor.jpg';
 
@@ -117,8 +116,7 @@ const Prizeinfo = [
 
 const sponsorLogos = [
   [{src: devfolio}, {src: polygon}, {src: solana}], //Array 1
-  [{src: filecoin}, {src: Replit}, {src: ppa}],
-  [{src: beeceptor}]
+  [{src: filecoin}, {src: Replit}, {src: beeceptor}],
 ];
 
 /** Instructions
