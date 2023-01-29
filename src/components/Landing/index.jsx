@@ -50,10 +50,9 @@ const Myinfo = () => {
         </a>
       </div>
       <div
-        class="apply-button"
+        className="apply-button"
         data-hackathon-slug="hackstreet"
-        data-button-theme="light"
-        style="height: 44px; width: 312px"
+        data-button-theme="light" 
       ></div>
     </div>
   );

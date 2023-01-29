@@ -11,6 +11,9 @@ import polygon from './Assets/sponsorsLogos/polygon.png';
 import solana from './Assets/sponsorsLogos/solana.png';
 import filecoin from './Assets/sponsorsLogos/filecoin.png';
 import Replit from './Assets/sponsorsLogos/replit.png';
+import ppa from './Assets/sponsorsLogos/ppa.jpg';
+import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import beeceptor from './Assets/sponsorsLogos/beeceptor.jpg';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -22,8 +25,7 @@ import Replit from './Assets/sponsorsLogos/replit.png';
 const TOP_SECTION = {
   TITLE: 'Hack Street',
   Typed_effect: ['48 hours of creativity', 'Code In The Abyssal'],
-  SHORT_DESCRIPTION:
-    '4th and 5th Feburary 2022',
+  SHORT_DESCRIPTION: '4th and 5th Feburary 2022',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
@@ -45,7 +47,6 @@ const MIDDLE_SECTION = {
   LOGO: hackathonLogo
 };
 
-
 /** SCHEDULE
  *
  * INSTRUCTIONS
@@ -58,9 +59,7 @@ const calenderStartingDate = {
   year: 2022
 };
 
-const schedule = [
-  {}
-];
+const schedule = [{}];
 
 /** ICON
  *
@@ -100,8 +99,8 @@ const Prizeinfo = [
       type: 'All Girls Team Winner',
       content:
         'All Girls Team Winner will be awarded to the project of hackathon which was made by an all girls team'
-    },
-  ],
+    }
+  ]
 ];
 
 /** Instructions
@@ -110,7 +109,6 @@ const Prizeinfo = [
  * in a group of 3.
  */
 
-
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
  * create as many arrays you want all logos will be rendered
@@ -118,7 +116,9 @@ const Prizeinfo = [
  */
 
 const sponsorLogos = [
-  [{src: polygon}, {src: solana}, {src: filecoin}, {src: Replit}], //Array 1
+  [{src: devfolio}, {src: polygon}, {src: solana}], //Array 1
+  [{src: filecoin}, {src: Replit}, {src: ppa}],
+  [{src: beeceptor}]
 ];
 
 /** Instructions
@@ -129,8 +129,7 @@ const frequentlyAskedQuestions = [
     [
       {
         label: 'Who can attend?',
-        content:
-          'Hackstreet is open to students of all colleges'
+        content: 'Hackstreet is open to students of all colleges'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -153,7 +152,7 @@ const frequentlyAskedQuestions = [
         label: 'I have more questions?',
         content:
           'Reach us directly on our Discord Server we would happy to help you.'
-      },
+      }
     ]
   ]
 ];
