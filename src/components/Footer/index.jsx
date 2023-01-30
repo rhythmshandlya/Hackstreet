@@ -69,11 +69,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
-          </a>
-        </div>
+        
         <div className="footer_info">
           <p>
             Contact us{' '}@{' '}
