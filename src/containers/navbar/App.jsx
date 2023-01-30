@@ -86,7 +86,7 @@ const NAVBAR = ({}) => {
               </li>
               <li>
                 <Link to={`#faq`}>
-                  <span className="links">Aboute </span>
+                  <span className="links">About </span>
                 </Link>
               </li>
               <li>
