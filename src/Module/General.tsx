@@ -23,7 +23,7 @@ import solana from './Assets/sponsorsLogos/solana.png';
 
 const TOP_SECTION = {
   TITLE: 'Hack Street',
-  Typed_effect: ['48 hours of creativity', 'Code In The Abyssal'],
+  Typed_effect: ['18 hours of creativity', 'Code In The Abyssal'],
   SHORT_DESCRIPTION: '4th and 5th Feburary 2022',
   IMG_SRC: boy,
   DISCORD_LINK: '',
