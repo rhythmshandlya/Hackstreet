@@ -130,6 +130,10 @@ button:hover .overlay {
   .AboutMe {
     text-align: center;
   }
+
+  .join_disco{
+    margin: auto;
+  }
 }
 
 @media (max-width: 330px) {
