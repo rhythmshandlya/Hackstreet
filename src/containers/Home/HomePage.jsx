@@ -95,7 +95,7 @@ export default function HomePage() {
 
         {/* ********Tracks here ***** */}
         <Row className="prizesection" id="tracks">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Tracks section" />
           {Tracks.map(PrizeGroup)}
         </Row>
 
