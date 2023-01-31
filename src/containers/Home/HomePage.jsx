@@ -100,7 +100,9 @@ export default function HomePage() {
         </Row>
 
         {/* ********Frequently asked Questions here ***** */}
+        <br/><br/>
         <div className="Myfaqs" id="faq">
+          <PrizeHeading type="Frequently Asked Questions" />
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
