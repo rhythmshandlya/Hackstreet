@@ -11,19 +11,17 @@ import { Myinfo } from '../../components/Landing/index.jsx';
 import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
-    Sponsor,
-    SponsorsHead
+  Sponsor,
+  SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
-
 import {
-    frequentlyAskedQuestions,
-    Prizeinfo,
-    sponsorLogos,
+  frequentlyAskedQuestions,
+  Prizeinfo, sponsorLogos, Tracks
 } from '../../Module/General';
-
-import MyCalender from '../calender';
 import './about.css';
 import pattern from './assets/pattern4.png';
+
+
 
 const SponsorGroup = (props, index) => {
   return (
@@ -93,6 +91,12 @@ export default function HomePage() {
           <Col className="info-div" sm={12} lg={4} md={4}>
             <Logo />
           </Col>
+        </Row>
+
+        {/* ********Tracks here ***** */}
+        <Row className="prizesection" id="tracks">
+          <PrizeHeading type="Prize section" />
+          {Tracks.map(PrizeGroup)}
         </Row>
 
         {/* ********Frequently asked Questions here ***** */}
