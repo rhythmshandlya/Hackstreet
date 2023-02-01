@@ -24,7 +24,7 @@ import beeceptor from './Assets/sponsorsLogos/beeceptor.jpg';
 const TOP_SECTION = {
   TITLE: 'Hack Street',
   Typed_effect: ['48 hours of creativity', 'Code In The Abyssal'],
-  SHORT_DESCRIPTION: '4th and 5th Feburary 2022',
+  SHORT_DESCRIPTION: '4th and 5th Feburary 2023',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
@@ -55,7 +55,7 @@ const MIDDLE_SECTION = {
 
 const calenderStartingDate = {
   month: 1,
-  year: 2022
+  year: 2023
 };
 
 const schedule = [{}];
