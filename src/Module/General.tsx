@@ -1,18 +1,18 @@
-import hackathonLogo from './Assets/hackathonLogo.png';
-
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
  */
-
 import boy from './Assets/boy.png';
-import polygon from './Assets/sponsorsLogos/polygon.png';
-import solana from './Assets/sponsorsLogos/solana.png';
-import filecoin from './Assets/sponsorsLogos/filecoin.png';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import hackathonLogo from './Assets/hackathonLogo.png';
 import beeceptor from './Assets/sponsorsLogos/beeceptor.jpg';
+import bizthon from './Assets/sponsorsLogos/bizthon.jpeg';
+import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import filecoin from './Assets/sponsorsLogos/filecoin.png';
+import polygon from './Assets/sponsorsLogos/polygon.png';
+import Replit from './Assets/sponsorsLogos/replit.png';
+import solana from './Assets/sponsorsLogos/solana.png';
+
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -42,7 +42,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is Hackstreet?',
   LONG_DESCRIPTION:
-    'Hackstreet is 24 hour long running hackathon will be held on Feburary 4th and 5th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Hackstreet is 18 hour long running hackathon will be held on Feburary 4th and 5th , We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have unique opportunities to learn from each other trying hands in new technologies. We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
@@ -71,6 +71,33 @@ const schedule = [{}];
  * create as many arrays you want all prizes will be rendered
  * in a group of 3.
  */
+
+const Tracks = [
+  [
+    {
+      type: 'Education',
+      content: 'Participants can work on developing innovative solutions for learning, classroom technology, or educational games'
+    },
+    {
+      type: 'Web 3.0 / Blockchain',
+      content: 'Participants can work on creating decentralized applications, smart contracts, or other projects that utilize the features of blockchain technology.'
+    },
+    {
+      type: 'Healthcare',
+      content: 'Participants can work on developing solutions for telemedicine, medical record management, or patient engagement.'
+    },
+  ],
+  [
+    {
+      type: 'Environment',
+      content: 'Participants can work on developing solutions that promote sustainable living, reduce waste, or help mitigate the effects of climate change.'
+    },
+    {
+      type: 'Open Innovation',
+      content: 'Participants can explore new business models, technologies, and ideas that involve external stakeholders to drive innovation.'
+    }
+  ]
+]
 
 const Prizeinfo = [
   [
@@ -117,6 +144,7 @@ const Prizeinfo = [
 const sponsorLogos = [
   [{src: devfolio}, {src: polygon}, {src: solana}], //Array 1
   [{src: filecoin}, {src: Replit}, {src: beeceptor}],
+  [{src: bizthon}]
 ];
 
 /** Instructions
@@ -149,7 +177,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly on our Discord Server we would happy to help you.'
+          'Reach us directly on our Discord Server we would be happy to help you.'
       }
     ]
   ]
@@ -163,5 +191,7 @@ export {
   sponsorLogos,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate
+  calenderStartingDate,
+  Tracks
 };
+

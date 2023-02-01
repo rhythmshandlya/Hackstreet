@@ -1,5 +1,5 @@
-import {useEffect} from 'react';
-import {SOCIALS, TOP_SECTION} from '../../Module/General';
+import { useEffect } from 'react';
+import { SOCIALS, TOP_SECTION } from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
 
@@ -58,4 +58,5 @@ const Myinfo = () => {
   );
 };
 
-export {Btn, Myinfo};
+export { Btn, Myinfo };
+

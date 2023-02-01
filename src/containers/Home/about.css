@@ -10,12 +10,13 @@
   background-size: auto 100vh;
 }
 .color_sectiom {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./assets/bg2.gif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(./assets/bg2.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
-  padding-bottom: 5rem;
+  padding-bottom: 11rem;
 }
 .container-fluid {
   max-width: 1500px;
@@ -59,14 +60,14 @@ h1 {
 .prizesection {
   text-align: center;
   margin: 0 auto;
-  padding: 0 4vh 0 4vh;
+  padding: 4vh 6vh;
   margin: 17vh 0vh 0 0vh;
   border-radius: 14px;
   margin-top: 4vh;
   background-color: #f3effe;
 }
 
-.Prizes{
+.Prizes {
   width: 100%;
 }
 
